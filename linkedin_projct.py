@@ -3,6 +3,7 @@ import csv
 from bs4 import BeautifulSoup
 import requests
 
+# something
 def save_jobs(jobs_info):
     with open('jobs.csv', 'w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
